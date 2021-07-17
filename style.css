@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(140, 140, 140);
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+header h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+#img-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;  
+}
+
+#form-container {
+  background-color: rgb(237, 237, 237);
+  padding: 10px 30px 30px;
+  margin: 10px 20px;
+  border-radius: 8px;
+  height: min-content;  
+}
+
+#btn-yellow {
+  /* background-color: rgb(255, 216, 3); */
+  background-color: mediumseagreen;
+  color: WHITE;
+  font-weight: 500;
+  border-color: grey;
+  font-size: 30px;
+  width: 300px;
+}
+
+h5 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
