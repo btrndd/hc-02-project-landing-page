@@ -12,6 +12,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  text-align: center;
 }
 
 header h2 {
@@ -24,7 +25,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 80px 0 0;
+  margin: 60px 0 0;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -42,6 +43,7 @@ section {
   margin: 10px 10px;
   border-radius: 8px;
   height: min-content;  
+  text-align: center;
 }
 
 #btn-yellow {
@@ -49,15 +51,11 @@ section {
   color: WHITE;
   font-weight: 500;
   border-color: grey;
-  font-size: 30px;
+  font-size: 24px;
   width: 300px;
 }
 
-h5 {
-  text-align: center;
-}
-
-h2 {
+h4 {
   text-align: center;
   margin-top: 10px;
 }
@@ -83,7 +81,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   margin: 0 10px 0;
   flex-grow: 0;
   flex-shrink: 1;
@@ -104,3 +102,4 @@ footer {
   padding: 0 5px;
   bottom: 100%;
 }
+
