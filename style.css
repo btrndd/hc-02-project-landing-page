@@ -1,11 +1,17 @@
 body {
   background-color: rgb(140, 140, 140);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 header {
   background-color: black;
   color: white;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header h2 {
@@ -18,7 +24,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 80px 0 0;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -32,14 +38,13 @@ section {
 
 #form-container {
   background-color: rgb(237, 237, 237);
-  padding: 10px 30px 30px;
-  margin: 10px 20px;
+  padding: 10px 20px 30px;
+  margin: 10px 10px;
   border-radius: 8px;
   height: min-content;  
 }
 
 #btn-yellow {
-  /* background-color: rgb(255, 216, 3); */
   background-color: mediumseagreen;
   color: WHITE;
   font-weight: 500;
@@ -65,4 +70,37 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.itens {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+#benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10px 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgb(26, 26, 26);
+  padding: 50px 20px 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.icon {
+margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 5px;
+  bottom: 100%;
 }

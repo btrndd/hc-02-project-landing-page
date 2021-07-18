@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -12,28 +12,27 @@
 </head>
 
 <body>
-  <header><h2>FHGGSDFLGJDSFGHSDFKLGHJFDGKL</h2></header>
+  <header><h2 id="timer"></h2></header>
   <section id="first-container">
     <div id="img-container" class="containerr">
       <img class="img-fluid" src="./blackfriday.png" width="900px">
     </div>
     <div class="containerr" id="form-container">
       <h2>FIQUE POR DENTRO DOS DESCONTOS!</h3>
-      <h5 class="badge bg-dark text-wrap fs-4">Preparamos uma seleção de ofertas especiais pra você.</h5>      
-      <!-- <h5 class="fs-5">Para garantir é muito simples... Basta se inscrever abaixo.</h5> -->
-    <form>
+      <h5 class="badge bg-dark text-wrap fs-4">Preparamos uma seleção de ofertas especiais pra você.</h5>
+    <form action="" method="GET">
       <div class="mb-3">
         <div class="mb-3">
           <label for="nameInput" class="form-label">Nome completo</label>
-          <input type="text" class="form-control" id="nameInput">
+          <input type="text" class="form-control" id="nameInput" required>
         </div>
         <label for="mailInput" class="form-label">Seu melhor e-mail</label>
-        <input type="email" class="form-control" id="mailInput" aria-describedby="emailHelp">
+        <input type="email" class="form-control" id="mailInput" aria-describedby="emailHelp" required>
         <div id="emailHelp" class="form-text">Fique tranquilo(a). Enviaremos apenas e-mails referentes a essa promoção!</div>
       </div>      
       <div id="button-container">
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="Check">
+        <input type="checkbox" class="form-check-input" id="Check" required>
         <label class="form-check-label" for="Check">Quero receber minha oferta!</label>        
       </div>
       <div><button id="btn-yellow" type="submit" class="btn btn-primary badge bg-success">ME INSCREVER</button></div>  
@@ -41,6 +40,25 @@
     </form>
   </div>
   </section>
+  <section id="benefits">
+    <div class="itens">
+      <img class="icon" src="https://img.icons8.com/emoji/100/000000/1st-place-medal-emoji.png"/>
+      <h4>SEJA O PRIMEIRO</h4>  
+      <p>Se inscreva com seu e-mail e fique por dentro das ofertas antes que todo mundo. ESTOQUES LIMITADOS!</p>    
+    </div>
+    <div class="itens">
+      <img class="icon" height="100px" src="https://img.icons8.com/dusk/100/000000/truck.png"/>
+      <h4>ENTREGA PRIORITÁRIA</h4>  
+      <p>Clientes que se inscreverem e comprarem na Black Friday vão ter prioridade nos envios! </p>    
+    </div>
+    <div class="itens">
+      <img class="icon" src="https://img.icons8.com/color/100/000000/credit-card-interest.png"/>
+      <h4>EM ATÉ 12x SEM JUROS</h4>  
+      <p>Benefício exclusivo para os incritos. Parcelamento em até 12x sem nenhuma taxa adicional!</p>    
+    </div>
+  </section>
+  <footer> <small class="fs-6"> Desenvolvido por: Bruno Trindade © 2021 All Rights Reserved</small> </footer> 
+  <script src="script.js"></script>  
 </body>
 
 </html>
